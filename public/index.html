@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket URL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Pocket URL</h1>
+            <p>Shorten your lengthy URLs in a snap!</p>
+        </header>
+        <main>
+            <input type="url" id="originalUrl" placeholder="Enter your long URL here">
+            <div class="mydiv">
+                <button id="shortenBtn">Shorten</button>
+            </div>
+            
+            <div id="result" >
+                <span id="shortUrl"></span>
+                <button id="copyBtn" style="display:none;">
+                    <i class="fa fa-copy"></i>
+                    <span id="copyText">Copy</span>
+                </button>
+               
+            </div>
+
+
+            <div class="mydiv">
+                <button id="resetBtn" style="display:none;">Reset</button>
+            </div>
+            
+        </main>
+        <script src="js/main.js"></script>
+    </div>
+</body>
+
+</html>
